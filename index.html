@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0d0a10">
+  <meta name="description" content="یک صفحه تولد خصوصی برای فاطمه ❤️">
+  <title>برای فاطمه ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= LOGIN ================= -->
+  <section id="loginScreen" class="screen login-screen">
+    <div class="login-glow"></div>
+    <div class="login-card">
+      <div class="lock">♡</div>
+      <p class="eyebrow">A little secret...</p>
+      <h1>این صفحه برای همه نیست...</h1>
+      <p class="login-text">فقط برای کسیه که دلیل ساخته شدنشه. ❤️</p>
+      <p class="question">رمز ورود رو می‌دونی؟ حدسش بزن :)</p>
+
+      <div class="password-box">
+        <input id="passwordInput" type="password" placeholder="رمز ورود" autocomplete="off">
+        <button id="loginBtn" type="button">ورود ❤️</button>
+      </div>
+
+      <p id="loginError" class="error">رمز درست نیست :)</p>
+    </div>
+  </section>
+
+  <!-- ================= MAIN SITE ================= -->
+  <main id="mainSite" class="hidden">
+
+    <audio id="mainMusic" loop preload="auto">
+      <source src="ta-key.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- HERO -->
+    <section class="hero section">
+      <div class="hero-image-wrap reveal">
+        <img src="us.jpg" alt="ما" class="hero-image">
+      </div>
+
+      <div class="hero-content reveal">
+        <span class="small-title">برای تو، فاطمه</span>
+        <h1>فاطمه</h1>
+        <p class="hero-birthday">تولدت مبارک، قشنگ‌ترین اتفاق زندگی من. ❤️</p>
+        <div class="divider"></div>
+        <p class="hero-quote">
+          از بین تمام آدم‌هایی که می‌شد در این دنیا ملاقات کنم،
+          <strong>خوش‌شانس‌ترین اتفاق زندگی من، پیدا کردنِ تو بود.</strong> ❤️
+        </p>
+        <a href="#about" class="scroll-btn">بریم ادامه؟ ↓</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section text-section">
+      <div class="content reveal">
+        <span class="section-number">01</span>
+        <h2>فاطمه،</h2>
+        <p>
+          شاید خودت ندونی،
+          اما بودنت برای من فقط «بودنِ یک آدم» نیست.
+          تو بخشی از روزهایی هستی که
+          دلم می‌خواد تا همیشه به یادشون بیارم؛
+          بخشی از خاطراتی که با گذشت زمان،
+          نه تنها کمرنگ نشدن،
+          بلکه بیشتر از همیشه برای من ارزشمند شدن. ❤️
+        </p>
+      </div>
+    </section>
+
+    <!-- MEMORY GALLERY -->
+    <section class="section gallery-section">
+      <div class="section-heading reveal">
+        <span class="section-number">02</span>
+        <h2>چند تا قاب از تو...</h2>
+        <p>بعضی زیبایی‌ها را نمی‌شود فقط با یک عکس نشان داد؛<br>
+          باید کسی باشی که از نگاه من به تو نگاه کند.</p>
+      </div>
+
+      <div class="memory-grid">
+        <figure class="photo-card tall reveal">
+          <img src="fateme_collage.jpg" alt="فاطمه">
+        </figure>
+        <figure class="photo-card reveal">
+          <img src="fateme_stairs.jpg" alt="فاطمه روی پله‌ها">
+        </figure>
+        <figure class="photo-card reveal">
+          <img src="fateme_flowers.jpg" alt="فاطمه میان گل‌ها">
+        </figure>
+      </div>
+    </section>
+
+    <!-- FLOWERS -->
+    <section class="full-photo-section flower-section">
+      <img src="fateme_flowers.jpg" alt="فاطمه میان گل‌ها">
+      <div class="photo-overlay reveal">
+        <p>اگر قرار بود زیبایی یک تصویر داشته باشه...</p>
+        <h2>شاید شبیه تو می‌شد.</h2>
+      </div>
+    </section>
+
+    <!-- BIRTHDAY -->
+    <section class="birthday-section section">
+      <div class="birthday-photo reveal">
+        <img src="fateme_birthday.jpg" alt="تولد ۲۶ سالگی فاطمه">
+      </div>
+      <div class="birthday-copy reveal">
+        <span class="section-number">03</span>
+        <h2>امروز، روز توئه.</h2>
+        <p>
+          یک سال دیگه از بودنت گذشت...<br>
+          و من فقط می‌خوام امیدوار باشم<br>
+          سال جدید زندگیت پر از چیزهایی باشه<br>
+          که دلت می‌خواد. ❤️
+        </p>
+      </div>
+    </section>
+
+    <!-- SPECIAL GALLERY -->
+    <section class="section special-section">
+      <div class="section-heading reveal">
+        <span class="section-number">04</span>
+        <h2>تو از هر قاب قشنگ‌تری.</h2>
+      </div>
+
+      <div class="special-gallery">
+        <figure class="special-item big reveal">
+          <img src="fateme_stairs.jpg" alt="فاطمه روی پله‌ها">
+        </figure>
+        <figure class="special-item reveal">
+          <img src="fateme_art.jpg" alt="تصویر هنری">
+        </figure>
+
+        <figure class="special-item bride reveal">
+          <img src="fateme_bride.jpg" alt="فاطمه در لباس عروس">
+        </figure>
+        <div class="bride-text reveal">
+          <p>
+            <strong>تصور تو توی لباس عروس،</strong><br>
+            یکی از اون تصویرهاییه که دلم نمی‌خواد فقط توی خیال بمونه…<br>
+            چون فکر کنم دیدنت اون‌طور،<br>
+            قشنگ‌ترین لحظه‌ایه که می‌تونم تصور کنم. ❤️
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHILDHOOD -->
+    <section class="childhood-section section">
+      <div class="childhood-card reveal">
+        <img src="fateme_childhood.jpg" alt="عکس کودکی">
+        <div class="childhood-text">
+          <span class="section-number">05</span>
+          <h2>خیلی قبل‌تر از اینکه من تو رو بشناسم...</h2>
+          <p>
+            یه دختر کوچولو داشت بزرگ می‌شد
+            و هیچ‌کدوممون نمی‌دونستیم
+            یه روزی قرارِ تبدیل بشه به
+            یکی از عزیزترین آدم‌های زندگی من. ❤️
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ENDING -->
+    <section class="ending-section section">
+      <div class="ending-content reveal">
+        <span>فاطمه...</span>
+        <div id="endingLine" class="ending-line hidden-line">هنوز یه چیز رو بهت نگفتم.</div>
+        <button id="continueBtn" class="primary-btn">ادامه ❤️</button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= SURPRISE MODAL ================= -->
+  <div id="surpriseModal" class="modal hidden">
+    <div class="modal-backdrop"></div>
+    <div class="surprise-card">
+      <button id="closeSurprise" class="close-btn" aria-label="بستن">×</button>
+
+      <div id="surpriseIntro">
+        <div class="gift-icon">🎁</div>
+        <h2>برای آخرین سورپرایز آماده‌ای؟</h2>
+        <button id="openSurprise" class="primary-btn">بازش کن 🎁</button>
+      </div>
+
+      <div id="surpriseContent" class="hidden">
+        <div class="confetti" aria-hidden="true">
+          <span>✦</span><span>❤</span><span>✦</span><span>✧</span><span>❤</span>
+          <span>✦</span><span>✧</span><span>❤</span><span>✦</span><span>✧</span>
+        </div>
+
+        <div class="surprise-cake">🎂</div>
+        <h1>تولدت مبارک فاطمه ❤️</h1>
+
+        <p>
+          امیدوارم وقتی این صفحه رو می‌بینی،
+          بدونی که پشت تک‌تک این عکس‌ها،
+          تک‌تک این جمله‌ها
+          و تک‌تک این لحظه‌ها
+          یک دنیا دوست داشتن وجود داره.
+        </p>
+
+        <h3>تولدت مبارک عشق من. ❤️</h3>
+        <button id="closeSurpriseBottom" class="secondary-btn">بستن ❤️</button>
+      </div>
+    </div>
+  </div>
+
+  <audio id="birthdayMusic" preload="auto">
+    <source src="tavalodet-mobarak.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
